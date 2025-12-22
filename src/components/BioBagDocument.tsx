@@ -6,11 +6,11 @@ interface DocumentRowProps {
 
 const DocumentRow = ({ label, value = "", sublabel }: DocumentRowProps) => (
   <div className="document-row p-4">
-    <span className="document-label">{label}</span>
+    <span className="document-label">{label}:</span>
     {sublabel && (
       <span className="text-sm text-muted-foreground ml-1">({sublabel})</span>
     )}
-    {value && <span className="document-value">: {value}</span>}
+    {value && <span className="document-value"> {value}</span>}
   </div>
 );
 
@@ -19,18 +19,19 @@ const BioBagDocument = () => {
     <div className="min-h-screen bg-background py-8 px-4">
       <div className="document-container">
         {/* Title */}
-        <h1 className="document-title">Bio Bag India</h1>
+        <h1 className="document-title">Leaflet</h1>
 
         {/* Document Body */}
         <div className="border-t border-border">
           {/* Header Row */}
           <div className="document-header">
-            Format for providing information about marking and labelling to CPCB
+            Read Leaflet Before Use
           </div>
 
           {/* Data Rows */}
           <DocumentRow 
             label="Company Name" 
+            value="Bio Bag India"
           />
 
           <DocumentRow 
