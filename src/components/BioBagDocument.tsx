@@ -58,30 +58,6 @@ const BioBagDocument = () => {
           />
         </div>
 
-        {/* Notes Section */}
-        <div className="border-t border-border p-6 mt-4">
-          <h3 className="font-semibold text-foreground mb-4">Note II:</h3>
-          <p className="text-muted-foreground mb-4">
-            One of the following labelling options for Plastic Packaging:
-          </p>
-          <ol className="list-decimal list-inside space-y-3 text-sm text-muted-foreground">
-            <li>
-              <span className="font-medium text-foreground">Option 1:</span> Bar Code as per Rule 11 (1a) (Provide soft copy of packaging label with barcode)
-            </li>
-            <li>
-              <span className="font-medium text-foreground">Option 2:</span> QR Code as per Rule 11 (1a) (Provide soft copy of packaging label with QR code)
-            </li>
-            <li>
-              <span className="font-medium text-foreground">Option 3:</span> Information provided in Product Information Brochure as per Rule 11 (1b) (Provide soft copy of Product Information Brochure)
-            </li>
-            <li>
-              <span className="font-medium text-foreground">Option 4:</span> Printing unique no. issued under any law in force for the time being (Provide soft copy of packaging label with the Unique No. and details of law under which this Number has been issued to the industry)
-            </li>
-          </ol>
-          <p className="text-sm text-muted-foreground mt-4 border-l-4 border-primary pl-4 py-2 bg-accent/30">
-            <strong>B.</strong> At least one Option from those listed at A (1-4) has to be selected in Column (vi) of the above Format. More than one options can also be selected in this Section.
-          </p>
-        </div>
       </div>
     </div>
   );
