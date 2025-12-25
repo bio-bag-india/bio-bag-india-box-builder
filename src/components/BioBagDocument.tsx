@@ -1,4 +1,5 @@
 import bioBagLogo from "@/assets/bio-bag-india-logo.png";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 interface DocumentRowProps {
   label: string;
@@ -67,14 +68,23 @@ const BioBagDocument = () => {
       </div>
 
       {/* Contact Information */}
-      <div className="document-container mt-4 p-4 text-center">
-        <p className="font-bold">Email :- biobagindia48@gmail.com</p>
-        <p className="font-bold">Phone :- +91 99748 30507</p>
-        <p className="font-bold">
-          Factory Address:- Silver Complex, Lothada G.I.D.C.,<br />
-          Umiya Industrial Area, B/h<br />
-          Rajkot - 360024, Gujarat, India
-        </p>
+      <div className="document-container mt-4 p-6">
+        <div className="space-y-3">
+          <div className="flex items-center gap-3">
+            <Mail className="h-5 w-5 text-primary flex-shrink-0" />
+            <span className="font-bold">biobagindia48@gmail.com</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <Phone className="h-5 w-5 text-primary flex-shrink-0" />
+            <span className="font-bold">+91 99748 30507</span>
+          </div>
+          <div className="flex items-start gap-3">
+            <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+            <span className="font-bold">
+              Silver Complex, Lothada G.I.D.C., Umiya Industrial Area, B/h Rajkot - 360024, Gujarat, India
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
