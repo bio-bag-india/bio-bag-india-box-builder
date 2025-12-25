@@ -1,16 +1,14 @@
+import bioBagLogo from "@/assets/bio-bag-india-logo.png";
+
 interface DocumentRowProps {
   label: string;
   value?: string;
-  sublabel?: string;
 }
 
-const DocumentRow = ({ label, value = "", sublabel }: DocumentRowProps) => (
+const DocumentRow = ({ label, value = "" }: DocumentRowProps) => (
   <div className="document-row p-4">
     <span className="document-label">{label}:</span>
-    {sublabel && (
-      <span className="text-sm text-muted-foreground ml-1">({sublabel})</span>
-    )}
-    {value && <span className="document-value"> {value}</span>}
+    {value && <span className="document-value font-bold"> {value}</span>}
   </div>
 );
 
@@ -18,8 +16,15 @@ const BioBagDocument = () => {
   return (
     <div className="min-h-screen bg-background py-8 px-4">
       <div className="document-container">
-        {/* Title */}
-        <h1 className="document-title">Leaflet</h1>
+        {/* Title with Logo */}
+        <div className="flex items-center justify-center gap-4 py-4">
+          <img 
+            src={bioBagLogo} 
+            alt="Bio Bag India Logo" 
+            className="h-16 w-auto"
+          />
+          <h1 className="document-title m-0">Leaflet</h1>
+        </div>
 
         {/* Document Body */}
         <div className="border-t border-border">
@@ -41,12 +46,12 @@ const BioBagDocument = () => {
 
           <DocumentRow 
             label="Category of Plastic Packaging" 
-            value="IV"
+            value="(IV)"
           />
 
           <DocumentRow 
             label="Thickness of plastic packaging" 
-            value="NA"
+            value="(NA)"
           />
 
           <DocumentRow 
@@ -59,7 +64,17 @@ const BioBagDocument = () => {
             value="A1"
           />
         </div>
+      </div>
 
+      {/* Contact Information */}
+      <div className="document-container mt-4 p-4 text-center">
+        <p className="font-bold">Email :- biobagindia48@gmail.com</p>
+        <p className="font-bold">Phone :- +91 99748 30507</p>
+        <p className="font-bold">
+          Factory Address:- Silver Complex, Lothada G.I.D.C.,<br />
+          Umiya Industrial Area, B/h<br />
+          Rajkot - 360024, Gujarat, India
+        </p>
       </div>
     </div>
   );
