@@ -46,19 +46,16 @@ const BioBagDocument = () => {
 
           <DocumentRow 
             label="Thickness of plastic packaging" 
-            sublabel="in case of Cat-II"
             value="NA"
           />
 
           <DocumentRow 
             label="Registration No. of Compostable/Biodegradable Plastic" 
-            sublabel="as per Rule 4h of PWM Rules, in case of Cat-IV/V"
             value="AVIOS GREEN IND. 1 GUJARAT / 517"
           />
 
           <DocumentRow 
             label="Option (1-4) chosen for Labelling" 
-            sublabel="Details given at Note II – A (1-4) below"
             value="A1"
           />
         </div>
