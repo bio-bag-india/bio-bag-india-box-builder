@@ -57,7 +57,7 @@ const BioBagDocument = () => {
 
           <DocumentRow 
             label="Registration No. of Compostable/Biodegradable Plastic" 
-            value="AVIOS GREEN IND. 1 GUJARAT / 517"
+            value="AVIOS GREEN IND./GUJARAT/517"
           />
 
           <DocumentRow 
