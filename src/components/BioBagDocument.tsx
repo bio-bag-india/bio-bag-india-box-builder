@@ -64,6 +64,16 @@ const BioBagDocument = () => {
             label="Option (1-4) chosen for Labelling" 
             value="A1"
           />
+
+          <DocumentRow 
+            label="GPCB CCA No." 
+            value="GPCB/CCA/RJT-8185/ID-119975/2026/12480"
+          />
+
+          <DocumentRow 
+            label="ISO 9001:2015 Cert No." 
+            value="Q2A-2026-0211T111621"
+          />
         </div>
       </div>
 
