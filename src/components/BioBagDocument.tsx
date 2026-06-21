@@ -81,6 +81,11 @@ const BioBagDocument = () => {
             label="ISO 9001:2015 Cert No." 
             value="Q2A-2026-0211T111621"
           />
+
+          <DocumentRow 
+            label="EPR No." 
+            value="20260430313001"
+          />
         </div>
       </div>
 
