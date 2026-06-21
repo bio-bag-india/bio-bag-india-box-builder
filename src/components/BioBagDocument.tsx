@@ -2,6 +2,10 @@ import bioBagLogo from "@/assets/bio-bag-india-logo.png";
 import isoCert1 from "@/assets/iso-cert-1.jpeg.asset.json";
 import isoCert2 from "@/assets/iso-cert-2.jpeg.asset.json";
 import isoCert3 from "@/assets/iso-cert-3.jpeg.asset.json";
+import cert2_1 from "@/assets/cert2-1.jpeg.asset.json";
+import cert2_2 from "@/assets/cert2-2.jpeg.asset.json";
+import cert2_3 from "@/assets/cert2-3.jpeg.asset.json";
+import cert2_4 from "@/assets/cert2-4.jpeg.asset.json";
 import { Mail } from "lucide-react";
 
 interface DocumentRowProps {
