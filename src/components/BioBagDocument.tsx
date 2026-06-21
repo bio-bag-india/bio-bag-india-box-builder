@@ -100,8 +100,19 @@ const BioBagDocument = () => {
             <img src={isoCert1.url} alt="ISO Certificate 1" className="w-full h-auto border border-border rounded" />
             <img src={isoCert2.url} alt="ISO Certificate 2" className="w-full h-auto border border-border rounded" />
             <img src={isoCert3.url} alt="ISO Certificate 3" className="w-full h-auto border border-border rounded" />
+        </div>
+
+        {/* Additional Certificate Section */}
+        <div className="mt-6">
+          <h2 className="document-header mb-4">&nbsp;</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img src={cert2_1.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_2.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_3.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_4.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
