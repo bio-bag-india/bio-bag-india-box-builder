@@ -2,6 +2,10 @@ import bioBagLogo from "@/assets/bio-bag-india-logo.png";
 import isoCert1 from "@/assets/iso-cert-1.jpeg.asset.json";
 import isoCert2 from "@/assets/iso-cert-2.jpeg.asset.json";
 import isoCert3 from "@/assets/iso-cert-3.jpeg.asset.json";
+import cert2_1 from "@/assets/cert2-1.jpeg.asset.json";
+import cert2_2 from "@/assets/cert2-2.jpeg.asset.json";
+import cert2_3 from "@/assets/cert2-3.jpeg.asset.json";
+import cert2_4 from "@/assets/cert2-4.jpeg.asset.json";
 import { Mail } from "lucide-react";
 
 interface DocumentRowProps {
@@ -96,8 +100,19 @@ const BioBagDocument = () => {
             <img src={isoCert1.url} alt="ISO Certificate 1" className="w-full h-auto border border-border rounded" />
             <img src={isoCert2.url} alt="ISO Certificate 2" className="w-full h-auto border border-border rounded" />
             <img src={isoCert3.url} alt="ISO Certificate 3" className="w-full h-auto border border-border rounded" />
+        </div>
+
+        {/* Additional Certificate Section */}
+        <div className="mt-6">
+          <h2 className="document-header mb-4">&nbsp;</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <img src={cert2_1.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_2.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_3.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
+            <img src={cert2_4.url} alt="Certificate" className="w-full h-auto border border-border rounded" />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
