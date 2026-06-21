@@ -1,5 +1,5 @@
 import bioBagLogo from "@/assets/bio-bag-india-logo.png";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 interface DocumentRowProps {
   label: string;
