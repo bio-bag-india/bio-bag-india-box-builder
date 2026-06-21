@@ -88,6 +88,16 @@ const BioBagDocument = () => {
             <span className="font-bold">biobagindia48@gmail.com</span>
           </div>
         </div>
+
+        {/* ISO Certificate Section */}
+        <div className="mt-6">
+          <h2 className="document-header mb-4">ISO Certificate</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <img src={isoCert1.url} alt="ISO Certificate 1" className="w-full h-auto border border-border rounded" />
+            <img src={isoCert2.url} alt="ISO Certificate 2" className="w-full h-auto border border-border rounded" />
+            <img src={isoCert3.url} alt="ISO Certificate 3" className="w-full h-auto border border-border rounded" />
+          </div>
+        </div>
       </div>
     </div>
   );
